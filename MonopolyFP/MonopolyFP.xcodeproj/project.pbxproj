@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B5B517F2947C06600E46057 /* CommunityChest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B517D2947C06600E46057 /* CommunityChest.cpp */; };
+		6B5B51822947C0E000E46057 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B51802947C0E000E46057 /* Card.cpp */; };
+		6B5B51852947CC6F00E46057 /* Chance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B51832947CC6F00E46057 /* Chance.cpp */; };
+		6B5B51882947E43B00E46057 /* ElectricCompany.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B51862947E43B00E46057 /* ElectricCompany.cpp */; };
+		6B859C7F294270CB0025524A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B859C7E294270CB0025524A /* main.cpp */; };
+		6B859C87294273E30025524A /* Tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B859C85294273E30025524A /* Tile.cpp */; };
+		6B859C8A29427A080025524A /* Property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B859C8829427A080025524A /* Property.cpp */; };
+		6B859C8D294294E20025524A /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B859C8B294294E20025524A /* Player.cpp */; };
+		6B859C9329429F240025524A /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B859C9129429F240025524A /* game.cpp */; };
+		6B859C962942C4300025524A /* Dice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B859C942942C4300025524A /* Dice.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B859C79294270CB0025524A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B5B517D2947C06600E46057 /* CommunityChest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommunityChest.cpp; sourceTree = "<group>"; };
+		6B5B517E2947C06600E46057 /* CommunityChest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommunityChest.hpp; sourceTree = "<group>"; };
+		6B5B51802947C0E000E46057 /* Card.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		6B5B51812947C0E000E46057 /* Card.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Card.hpp; sourceTree = "<group>"; };
+		6B5B51832947CC6F00E46057 /* Chance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chance.cpp; sourceTree = "<group>"; };
+		6B5B51842947CC6F00E46057 /* Chance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Chance.hpp; sourceTree = "<group>"; };
+		6B5B51862947E43B00E46057 /* ElectricCompany.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ElectricCompany.cpp; sourceTree = "<group>"; };
+		6B5B51872947E43B00E46057 /* ElectricCompany.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ElectricCompany.hpp; sourceTree = "<group>"; };
+		6B859C7B294270CB0025524A /* MonopolyFP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MonopolyFP; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B859C7E294270CB0025524A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B859C85294273E30025524A /* Tile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tile.cpp; sourceTree = "<group>"; };
+		6B859C86294273E30025524A /* Tile.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tile.hpp; sourceTree = "<group>"; };
+		6B859C8829427A080025524A /* Property.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Property.cpp; sourceTree = "<group>"; };
+		6B859C8929427A080025524A /* Property.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Property.hpp; sourceTree = "<group>"; };
+		6B859C8B294294E20025524A /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		6B859C8C294294E20025524A /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		6B859C9129429F240025524A /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		6B859C9229429F240025524A /* game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = game.hpp; sourceTree = "<group>"; };
+		6B859C942942C4300025524A /* Dice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dice.cpp; sourceTree = "<group>"; };
+		6B859C952942C4300025524A /* Dice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Dice.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B859C78294270CB0025524A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B859C72294270CB0025524A = {
+			isa = PBXGroup;
+			children = (
+				6B859C7D294270CB0025524A /* MonopolyFP */,
+				6B859C7C294270CB0025524A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B859C7C294270CB0025524A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B859C7B294270CB0025524A /* MonopolyFP */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B859C7D294270CB0025524A /* MonopolyFP */ = {
+			isa = PBXGroup;
+			children = (
+				6B859C8929427A080025524A /* Property.hpp */,
+				6B859C8829427A080025524A /* Property.cpp */,
+				6B859C7E294270CB0025524A /* main.cpp */,
+				6B859C85294273E30025524A /* Tile.cpp */,
+				6B859C86294273E30025524A /* Tile.hpp */,
+				6B859C8B294294E20025524A /* Player.cpp */,
+				6B859C8C294294E20025524A /* Player.hpp */,
+				6B859C9129429F240025524A /* game.cpp */,
+				6B859C9229429F240025524A /* game.hpp */,
+				6B859C942942C4300025524A /* Dice.cpp */,
+				6B859C952942C4300025524A /* Dice.hpp */,
+				6B5B517D2947C06600E46057 /* CommunityChest.cpp */,
+				6B5B517E2947C06600E46057 /* CommunityChest.hpp */,
+				6B5B51802947C0E000E46057 /* Card.cpp */,
+				6B5B51812947C0E000E46057 /* Card.hpp */,
+				6B5B51832947CC6F00E46057 /* Chance.cpp */,
+				6B5B51842947CC6F00E46057 /* Chance.hpp */,
+				6B5B51862947E43B00E46057 /* ElectricCompany.cpp */,
+				6B5B51872947E43B00E46057 /* ElectricCompany.hpp */,
+			);
+			path = MonopolyFP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B859C7A294270CB0025524A /* MonopolyFP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B859C82294270CB0025524A /* Build configuration list for PBXNativeTarget "MonopolyFP" */;
+			buildPhases = (
+				6B859C77294270CB0025524A /* Sources */,
+				6B859C78294270CB0025524A /* Frameworks */,
+				6B859C79294270CB0025524A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonopolyFP;
+			productName = MonopolyFP;
+			productReference = 6B859C7B294270CB0025524A /* MonopolyFP */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B859C73294270CB0025524A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					6B859C7A294270CB0025524A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B859C76294270CB0025524A /* Build configuration list for PBXProject "MonopolyFP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B859C72294270CB0025524A;
+			productRefGroup = 6B859C7C294270CB0025524A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B859C7A294270CB0025524A /* MonopolyFP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B859C77294270CB0025524A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5B51882947E43B00E46057 /* ElectricCompany.cpp in Sources */,
+				6B859C962942C4300025524A /* Dice.cpp in Sources */,
+				6B5B517F2947C06600E46057 /* CommunityChest.cpp in Sources */,
+				6B859C8D294294E20025524A /* Player.cpp in Sources */,
+				6B5B51852947CC6F00E46057 /* Chance.cpp in Sources */,
+				6B5B51822947C0E000E46057 /* Card.cpp in Sources */,
+				6B859C7F294270CB0025524A /* main.cpp in Sources */,
+				6B859C87294273E30025524A /* Tile.cpp in Sources */,
+				6B859C9329429F240025524A /* game.cpp in Sources */,
+				6B859C8A29427A080025524A /* Property.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B859C80294270CB0025524A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6B859C81294270CB0025524A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6B859C83294270CB0025524A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B859C84294270CB0025524A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B859C76294270CB0025524A /* Build configuration list for PBXProject "MonopolyFP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B859C80294270CB0025524A /* Debug */,
+				6B859C81294270CB0025524A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B859C82294270CB0025524A /* Build configuration list for PBXNativeTarget "MonopolyFP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B859C83294270CB0025524A /* Debug */,
+				6B859C84294270CB0025524A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B859C73294270CB0025524A /* Project object */;
+}
